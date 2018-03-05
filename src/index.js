@@ -79,7 +79,7 @@ function possibleValues(matrix, i, j) {
 	
 	for (var x = k; x < (k + 3); x++) {
 		for (var y = l; y < (l + 3); y++) {
-			if(matrix[x][j] != 0) tempArray[matrix[x][y]] = 1;
+			if(matrix[x][y] != 0) tempArray[matrix[x][y]] = 1;
 		}
 	}
 	
